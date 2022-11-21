@@ -1,3 +1,5 @@
+// Dinh nghia Object
+
 const mongoose = require('mongoose');
 
 const NoteSchema = mongoose.Schema(
