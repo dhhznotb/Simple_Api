@@ -8,7 +8,7 @@ const MONGO_URL = "mongodb+srv://admin:admin123@learnit.ect7p.mongodb.net/testdb
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.get('/', (req, res) => {
-  res.json({"message": "!"});
+  res.json({"message": "Welcome to Note Manager API"});
 });
 
 mongoose.Promise = global.Promise;
